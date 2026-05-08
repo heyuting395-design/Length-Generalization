@@ -1,0 +1,15 @@
+{
+    "seed": 42,
+    "L": 15,
+    "num_train": 200000,
+    "train_max_digits": 7,
+    "train_min_carries": 0,
+    "num_test_iid": 20000,
+    "iid_max_digits": 7,
+    "iid_min_carries": 3,
+    "num_test_ood": 40000,
+    "ood_min_digits": 8,
+    "ood_max_digits": 12,
+    "ood_min_carries": 4,
+    "output_dir": "data/data_output"
+}
