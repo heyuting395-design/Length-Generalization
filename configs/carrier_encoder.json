@@ -1,0 +1,22 @@
+{
+    "model": {
+      "d_model": 128,
+      "nhead": 4,
+      "num_layers": 3,
+      "dim_feedforward": 512,
+      "num_digits": 13,
+      "dropout": 0.1,
+      "init_method": "xavier",
+      "init_gain": 1.0
+    },
+    "train": {
+      "batch_size": 32,
+      "epochs": 500,
+      "lr": 0.0001,
+      "scheduler_type": "cosine",
+      "warmup_steps": 400,
+      "weight_decay": 0.01,
+      "min_tf": 0.3
+    },
+    "exp_name": "Carrier_Encoder"
+  }

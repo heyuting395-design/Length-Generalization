@@ -1,0 +1,11 @@
+outputs/
+data/output/
+data/data_output/
+data/
+__pycache__/
+*.pth
+*.pt
+*.log
+.DS_Store
+.ipynb_checkpoints/
+add/

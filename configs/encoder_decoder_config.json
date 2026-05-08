@@ -1,0 +1,21 @@
+{
+  "model": {
+    "d_model": 128,
+    "nhead": 4,
+    "num_layers": 3,
+    "dim_feedforward": 512,
+    "num_digits": 13,
+    "dropout": 0.1,
+    "init_method": "xavier",
+    "init_gain": 1.0
+  },
+  "train": {
+    "batch_size": 32,
+    "epochs": 1,
+    "lr": 0.001,
+    "scheduler_type": "cosine",
+    "warmup_steps": 200,
+    "weight_decay": 0.01
+  },
+  "exp_name": "EnDe_RoPE_Addition"
+}

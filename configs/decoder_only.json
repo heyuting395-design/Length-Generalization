@@ -1,0 +1,23 @@
+{
+    "model": {
+      "type": "decoder_only",
+      "d_model": 128,
+      "nhead": 4,
+      "num_layers": 3,
+      "dim_feedforward": 512,
+      "num_digits": 13,
+      "dropout": 0.1,
+      "init_method": "normal",
+      "init_gain": 0.01,
+      "norm_type": "post_ln"
+    },
+    "train": {
+      "batch_size": 32,
+      "epochs": 500,
+      "lr": 0.001,
+      "scheduler_type": "cosine",
+      "warmup_steps": 400,
+      "weight_decay": 0.01
+    },
+    "exp_name": "DecoderOnly_PostLN_RoPE_7digit"
+  }
